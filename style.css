@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(88, 4, 136);
+    text-align: center;
+}
+
+h1{
+    color: rgb(5, 225, 245);
+    text-align: center;
+}
+
+li{
+    display: inline;
+    padding: 0px 80px;
+    border: 1px solid white;
+    background-color: blue;
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    text-align: center;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: rgb(43, 238, 108);
+}
+
+a:active{
+    color: rgb(243, 19, 116);
+}
+article{
+    border: 10px blue solid ;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    text-align: justify;
+}
+
+.forma{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.forma:hover{
+    border-radius: 50px;
+    box-shadow: 5px 5px aqua;
+}
+
+#Comprar{
+    background-color: darkgreen;
+    color: white;
+}
+
+#Cancelar{
+    background-color: red;
+    color: white;
+}
+
+#Comprar:active{
+background-color: white;
+color: darkgreen;
+}
+
+#Cancelar:active{
+    background-color: white;
+    color: red;
+}
